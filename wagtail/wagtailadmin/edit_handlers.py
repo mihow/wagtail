@@ -268,7 +268,7 @@ class BaseFormEditHandler(BaseCompositeEditHandler):
     # edit handler.  Subclasses can override this attribute to provide a form
     # with custom validation, for example.  Custom forms must subclass
     # WagtailAdminModelForm
-    base_form_class = WagtailAdminModelForm
+    base_form_class = WagtailAdminPageForm
 
     _form_class = None
 
